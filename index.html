@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>FRONT-END TRACK | STAGE ONE TASK</title>
+  </head>
+  <body>
+    <main class="main-wrapper">
+      <div class="card">
+        <div class="image-wrapper">
+          <img src="./assets/images/vctcode.jpg" alt="vctcode" data-testid="slackDisplayImage" />
+        </div>
+
+        <div class="slack-name">Vctcode</div>
+
+        <p data-testid="myTrack">Frontend</p>
+
+        <p class="bio">I am <b>Victor Oderinde</b>, currently interning with HNG the X cohort.</p>
+
+        <div class="date-and-time">
+          <div data-testid="currentDayOfTheWeek" id="day" class="current-day">Monday</div>
+
+          <div data-testid="currentUTCTime" id="time" class="current-time">12:00 UTC</div>
+        </div>
+
+        <a href="https://www.github.com" data-testid="“githubURL”" class="contact">
+          See Github here
+        </a>
+      </div>
+    </main>
+
+    <!-- link to javascript -->
+    <script src="./index.js"></script>
+  </body>
+</html>
