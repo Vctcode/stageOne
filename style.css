@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 40px;
 }
 
 .card {
@@ -50,14 +50,23 @@ body {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  margin-top: 20px;
+  margin: 20px 0 10px;
 }
 
 a {
+  display: block;
+  text-align: center;
   text-decoration: none;
   font-weight: bold;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  border-radius: 6px;
 }
 
+a:hover {
+  background: #89142a;
+}
 /* Mobile Responsiveness */
 @media screen and (max-width: 640px) {
   .image-wrapper img {
